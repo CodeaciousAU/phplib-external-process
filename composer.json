@@ -1,0 +1,31 @@
+{
+    "name": "codeacious/external-process",
+    "description": "Library for interacting with external programs on the system",
+    "license": "MIT",
+    "homepage": "https://github.com/CodeaciousAU/phplib-external-process",
+    "authors": [
+        {
+            "name": "Glenn Schmidt",
+            "email": "glenn@codeacious.com",
+            "homepage": "https://codeacious.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Codeacious\\ExternalProcess\\": "src/",
+            "CodeaciousTest\\ExternalProcess\\": "test/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.1.x-dev"
+        }
+    }
+}

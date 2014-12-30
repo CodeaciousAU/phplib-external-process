@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- $Id: phpunit.xml 858 2014-05-08 14:58:20Z glenn $ -->
+<phpunit bootstrap="./Bootstrap.php" colors="true">
+    <testsuites>
+        <testsuite name="Tests">
+            <directory>./CodeaciousTest</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
